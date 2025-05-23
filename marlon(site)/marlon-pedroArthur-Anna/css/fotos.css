@@ -1,0 +1,15 @@
+#alan{
+    text-align: center;
+    color: white;
+}
+#edu{
+    text-align: center;
+    color: white;
+}
+#leon{
+    text-align: center;
+    color: white;
+}
+body{
+    background-image: url(../img/edu.gif);
+}

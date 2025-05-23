@@ -1,0 +1,29 @@
+#dance{
+    text-align: center;
+    color: white;
+    padding-bottom: 100px;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+#hakari{
+    text-align: center;
+    color: white;
+    padding-bottom: 100px;
+    flex-grow: 1;
+   
+}
+#kawaii{
+    text-align: center;
+    color: white;
+    flex-grow: 1;
+    
+}
+img{
+    width: 35%;
+
+}
+body{
+    background-color: black;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

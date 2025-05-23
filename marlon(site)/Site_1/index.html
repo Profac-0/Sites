@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <main>
+        <form autocomplete="on" action="https://api.staticforms.xyz/submit" method="post">
+            <fieldset>
+                <legend>Mensagem rápida</legend>
+                <input type="hidden" name="accessKey" value="78186e80-9e60-4a96-b0cd-3e528dd8668d">
+                <label for="name">Nome:</label><input type="text" id="name" maxlength="30" minlength="2" autocomplete="name" required title="Nome completo (limite 30 caracteres)" placeholder="Preencha com seu nome">
+                <br>
+                <label for="mail">E-mail:</label><input type="email" id="mail" maxlength="30" minlength="2" autocomplete="email" required title="O e-mail deve conter @ e '.' como separador" placeholder="Preencha com seu email">
+                <br>
+                <textarea maxlength="300"></textarea>
+                <br>
+                <input type="submit" id="subm">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
